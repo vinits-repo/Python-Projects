@@ -13,7 +13,7 @@ try:
     yd = yt.streams.get_highest_resolution()
     
     # Download the video to the current directory
-    yd.download('E:\Pyhton Projects\YouTube Video Downloader')
+    yd.download('Path of the folder, where you want to save the video')
     
     print("Download complete.")
 except Exception as e:
